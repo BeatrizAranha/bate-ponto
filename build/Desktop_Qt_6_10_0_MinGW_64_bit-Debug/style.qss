@@ -1,0 +1,181 @@
+/* ---------------------------------------------------------
+   SILK TECHNOLOGY — DARK CORPORATE QSS THEME
+   --------------------------------------------------------- */
+
+QMainWindow {
+    background-color: #0E0E0F;
+}
+
+/* Fundo geral */
+QWidget {
+    background-color: #0E0E0F;
+    color: #D7D7DB;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* ------------------------------
+   TITULO
+   ------------------------------ */
+#labelTitulo {
+    font-size: 28px;
+    font-weight: 700;
+    color: white;
+    padding: 6px 0;
+}
+
+/* ------------------------------
+   RELOGIO
+   ------------------------------ */
+#labelClock {
+    font-size: 48px;
+    font-weight: 500;
+    color: #A08CFF;
+    padding: 4px 0;
+}
+
+/* ------------------------------
+   STATUS
+   ------------------------------ */
+#labelStatus {
+    font-size: 13px;
+    color: #AAA;
+    padding-top: 4px;
+}
+
+/* ------------------------------
+   BOTOES
+   ------------------------------ */
+QPushButton {
+    background-color: #1A1A1C;
+    border: 1px solid #2A2A2D;
+    padding: 12px 18px;   /* 🔥 Aumenta o botão */
+    border-radius: 10px;
+    color: #EFEFEF;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+QPushButton:hover {
+    background-color: #2A2A2D;
+    border-color: #A08CFF;
+}
+
+QPushButton:pressed {
+    background-color: #111113;
+    border: 1px solid #4F3FFF;
+}
+
+/* ------------------------------
+   TABELA
+   ------------------------------ */
+QTableWidget {
+    background-color: #161618;
+    border: 1px solid #2A2A2D;
+    border-radius: 8px;
+    gridline-color: #2A2A2D;
+    selection-background-color: #3D2D6E;
+    selection-color: white;
+    alternate-background-color: #1F1F21;
+    font-size: 14px;
+}
+
+QHeaderView::section {
+    background-color: #1C1C1E;
+    color: #E2E2E5;
+    padding: 8px;
+    font-weight: bold;
+    border: 1px solid #2A2A2D;
+    font-size: 15px;
+}
+
+QTableWidget::item {
+    padding: 8px;
+}
+
+QTableWidget::item:hover {
+    background-color: #252530;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background: #1A1A1C;
+    width: 12px;
+}
+
+QScrollBar::handle:vertical {
+    background: #2A2A2D;
+    min-height: 30px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3A3A3F;
+}
+
+QScrollBar::add-line,
+QScrollBar::sub-line {
+    height: 0;
+    width: 0;
+}
+
+/* ------------------------------
+   INPUTS (se usar futuramente)
+   ------------------------------ */
+QLineEdit {
+    background-color: #161618;
+    border-radius: 6px;
+    border: 1px solid #2A2A2D;
+    padding: 8px;
+    font-size: 14px;
+    color: white;
+}
+
+QLineEdit:focus {
+    border-color: #A08CFF;
+}
+/* Scrollbar vertical */
+QScrollBar:vertical {
+    background: transparent;
+    width: 6px;
+    margin: 0;
+    border: none;
+}
+
+QScrollBar::handle:vertical {
+    background: #444;         /* cor do “thumb” */
+    min-height: 30px;
+    border-radius: 3px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #666;
+}
+
+QScrollBar::add-line,
+QScrollBar::sub-line {
+    height: 0;
+}
+
+/* Scrollbar horizontal (caso queira) */
+QScrollBar:horizontal {
+    background: transparent;
+    height: 6px;
+    border: none;
+}
+
+QScrollBar::handle:horizontal {
+    background: #444;
+    min-width: 30px;
+    border-radius: 3px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #666;
+}
+
+QScrollBar::left-arrow,
+QScrollBar::right-arrow {
+    width: 0;
+    height: 0;
+}

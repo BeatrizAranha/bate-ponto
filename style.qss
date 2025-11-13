@@ -1,0 +1,153 @@
+/* ---------------------------------------------------------
+   GLOBAL SILK TECHNOLOGY THEME (Dark | Minimal | Corporate)
+   --------------------------------------------------------- */
+
+/* Fundo principal */
+QWidget {
+    background-color: #0E0E0F;
+    color: #D7D7DB;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+/* Labels grandes (título) */
+#labelTitulo {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 8px;
+}
+
+/* Relógio */
+#labelClock {
+    font-size: 16px;
+    color: #A08CFF; /* detalhe Silk */
+}
+
+/* Status */
+#labelStatus {
+    font-size: 12px;
+    color: #9a9a9a;
+}
+
+/* -----------------------------------------
+   BOTÕES
+   ----------------------------------------- */
+QPushButton {
+    background-color: #1A1A1C;
+    border: 1px solid #2A2A2D;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: #D7D7DB;
+    transition: 0.2s;
+}
+
+QPushButton:hover {
+    background-color: #2A2A2D;
+    border-color: #A08CFF;
+}
+
+QPushButton:pressed {
+    background-color: #111113;
+    border: 1px solid #4F3FFF;
+}
+
+/* -----------------------------------------
+   TABELA
+   ----------------------------------------- */
+QTableWidget {
+    background-color: #1A1A1C;
+    border: 1px solid #2A2A2D;
+    gridline-color: #2A2A2D;
+    selection-background-color: #2F2A45;
+    selection-color: white;
+    border-radius: 6px;
+}
+
+QTableWidget QTableCornerButton::section {
+    background-color: #1A1A1C;
+    border: 1px solid #2A2A2D;
+}
+
+/* Cabeçalho da tabela */
+QHeaderView::section {
+    background-color: #1F1F21;
+    padding: 6px;
+    border: 1px solid #2A2A2D;
+    font-weight: bold;
+    color: #D7D7DB;
+}
+
+/* Linhas alternadas */
+QTableWidget::item:alternate {
+    background-color: #161618;
+}
+
+/* Células */
+QTableWidget::item {
+    padding: 4px;
+}
+
+/* Quando o mouse passa por cima */
+QTableWidget::item:hover {
+    background-color: #252530;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    background: #1A1A1C;
+    width: 12px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #2A2A2D;
+    min-height: 24px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #3A3A3F;
+}
+
+/* Remover setas */
+QScrollBar::add-line,
+QScrollBar::sub-line {
+    height: 0;
+    width: 0;
+}
+
+/* -----------------------------------------
+   LINHAS DE ENTRADA (se algum dia usar QLineEdit)
+   ----------------------------------------- */
+QLineEdit {
+    background-color: #161618;
+    border: 1px solid #2A2A2D;
+    padding: 6px;
+    border-radius: 6px;
+    color: white;
+}
+
+QLineEdit:focus {
+    border: 1px solid #A08CFF;
+}
+
+/* -----------------------------------------
+   Caixa de Mensagens (QMessageBox)
+   ----------------------------------------- */
+QMessageBox {
+    background-color: #1A1A1C;
+}
+
+QMessageBox QLabel {
+    color: #D7D7DB;
+}
+
+QMessageBox QPushButton {
+    background-color: #1A1A1C;
+    border: 1px solid #2A2A2D;
+}
+
+QMessageBox QPushButton:hover {
+    border-color: #A08CFF;
+}

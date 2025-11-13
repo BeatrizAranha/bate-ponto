@@ -1,0 +1,16 @@
+# ninja log v6
+8	588	7847038949491097	bate-ponto_autogen/timestamp	bc15924159c3dc91
+600	2989	7847038950354323	CMakeFiles/bate-ponto.dir/mainwindow.cpp.obj	c1f367dd74fe4696
+8	588	7847038949491097	bate-ponto_autogen/mocs_compilation.cpp	bc15924159c3dc91
+8	588	7847038949491097	C:/Users/BlueFire/Git/bate-ponto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Release/bate-ponto_autogen/mocs_compilation.cpp	bc15924159c3dc91
+593	2269	7847038950279311	CMakeFiles/bate-ponto.dir/bate-ponto_autogen/mocs_compilation.cpp.obj	bb14ba21d0f3519
+8	588	7847038949491097	C:/Users/BlueFire/Git/bate-ponto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Release/bate-ponto_autogen/timestamp	bc15924159c3dc91
+596	2256	7847038950313894	CMakeFiles/bate-ponto.dir/main.cpp.obj	c93ece118a372fa2
+603	2509	7847038950380132	CMakeFiles/bate-ponto.dir/pointmanager.cpp.obj	5cc3613eeac23429
+2989	3136	7847038974243908	bate-ponto.exe	1eaa042b136912ef
+31	178	7847039782151953	bate-ponto_autogen/timestamp	bc15924159c3dc91
+31	178	7847039782151953	bate-ponto_autogen/mocs_compilation.cpp	bc15924159c3dc91
+31	178	7847039782151953	C:/Users/BlueFire/Git/bate-ponto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Release/bate-ponto_autogen/timestamp	bc15924159c3dc91
+31	178	7847039782151953	C:/Users/BlueFire/Git/bate-ponto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Release/bate-ponto_autogen/mocs_compilation.cpp	bc15924159c3dc91
+179	2352	7847039783627895	CMakeFiles/bate-ponto.dir/mainwindow.cpp.obj	c1f367dd74fe4696
+2352	2489	7847039805360474	bate-ponto.exe	1eaa042b136912ef

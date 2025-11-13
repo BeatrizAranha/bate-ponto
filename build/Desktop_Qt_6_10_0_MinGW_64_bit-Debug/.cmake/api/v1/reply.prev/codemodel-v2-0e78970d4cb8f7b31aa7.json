@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-be984b0af9f3fa9c400c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bate-ponto",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bate-ponto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bate-ponto-Debug-853e6409724adbaa3f1e.json",
+					"name" : "bate-ponto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bate-ponto_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bate-ponto_autogen-Debug-5d406632c7dfaea76916.json",
+					"name" : "bate-ponto_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bate-ponto_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bate-ponto_autogen_timestamp_deps-Debug-60f5b5cef2298ca1c712.json",
+					"name" : "bate-ponto_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/BlueFire/Git/bate-ponto/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug",
+		"source" : "C:/Users/BlueFire/Git/bate-ponto"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
